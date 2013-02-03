@@ -1,0 +1,34 @@
+{
+    "name": "PHPNodeNotifier",
+    "preferGlobal": "true",
+    "version": "0.1.0",
+    "author": "Ryan Copley <ryanwebdev@gmail.com>",
+    "description": "Allows our webserver to send notifications to users in realtime.",
+    "contributors": [
+        {
+            "name": "Ryan Copley",
+            "email": "ryanwebdev@gmail.com"
+        }
+    ],
+    "repository": {
+        "type": "https",
+        "url": "https://github.com/Carbunkulous/PHPNodeNotifier.git"
+    },
+    "keywords": [
+        "cli",
+        "http",
+        "server",
+        "notifications"
+    ],
+    "dependencies": {
+        "socket.io": "*",
+        "mysql": "2.0.0-alpha5"
+    },
+    "analyze": false,
+    "devDependencies": {},
+    "bundledDependencies": [],
+    "license": "none",
+    "engines": {
+        "node": ">=0.6.8"
+    }
+}

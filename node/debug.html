@@ -1,0 +1,8 @@
+<!-- You may need to adjust this file. -->
+<script src="socket.io/socket.io.js"></script>
+<script>
+  var socket = io.connect(':9090'); <!-- This seems to work. Why not? -->
+  socket.on('DebugUser', function (data) {
+    console.log(data);
+  });
+</script>
